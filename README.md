@@ -1,1 +1,1 @@
-# BHS_School_Council
+# BHS School Council
