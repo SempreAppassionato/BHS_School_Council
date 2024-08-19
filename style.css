@@ -1,0 +1,26 @@
+.hero-image {
+    background-image: url("./Images/HeroImage.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text {
+    color: green;
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    width: 100%;
+    font-size: 180px;
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.two-coloumn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
