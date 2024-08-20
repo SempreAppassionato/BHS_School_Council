@@ -12,7 +12,8 @@
     top: 20px;
     text-align: center;
     width: 100%;
-    font-size: 180px;
+    font-size: 500%;
+    padding: 100%;
 }
 
 * {
@@ -23,4 +24,22 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
+}
+.menu {
+    text-align: right;
+    background-color: rgb(0, 78, 66);
+    color: white;
+    text-decoration: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-left: none;
+}
+
+.logo {
+    width: 10%;
+    height: 10%;
+    display: block;
+    padding-left: 1%;
+    padding-bottom: 1%;
 }
