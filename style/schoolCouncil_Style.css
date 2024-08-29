@@ -12,7 +12,7 @@ body, html {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../images/BurnsideArialView.png");
 
   /* Set a specific height */
-  height: 50%;
+  height: 30%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -20,6 +20,7 @@ body, html {
   background-size: cover;
   position: relative;
   margin-top: 1%;
+  padding-top: 30%
 }
 
 /* Place text in the middle of the image */
@@ -30,6 +31,8 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  font-style: italic;
+  font-size: 200%
 }
 
 
