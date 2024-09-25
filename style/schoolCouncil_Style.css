@@ -1,5 +1,6 @@
 * {
     font-family: 'Public Sans';
+    display: grids;
 }
 
 body, html {
@@ -41,7 +42,7 @@ body, html {
     grid-gap: 20px;
 }
 
-.two-coloumn-alt {
+.two-coloumn-alt{
     display: grid;
     grid-template-columns: 4fr 3fr;
     grid-gap: 20px;
@@ -83,4 +84,15 @@ body, html {
     padding-top: 0%;
     padding-bottom: 1%;
     float: left;
+}
+
+.image-block > img{
+    max-height: 40%;
+    width: 40%;
+    object-fit: cover;
+}
+
+.column-text {
+    text-align: center;
+    overflow-wrap: normal;
 }
