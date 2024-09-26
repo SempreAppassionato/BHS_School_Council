@@ -1,6 +1,5 @@
 * {
     font-family: 'Public Sans';
-    display: grids;
 }
 
 body, html {
@@ -36,13 +35,13 @@ body, html {
   font-size: 200%
 }
 
-.two-coloumn {
+.two-column {
     display: grid;
     grid-template-columns: 3fr 4fr;
     grid-gap: 20px;
 }
 
-.two-coloumn-alt{
+.two-column-alt{
     display: grid;
     grid-template-columns: 4fr 3fr;
     grid-gap: 20px;
@@ -86,7 +85,7 @@ body, html {
     float: left;
 }
 
-.image-block > img{
+img{
     max-height: 100%;
     width: 100%;
     object-fit: cover;
