@@ -4,6 +4,8 @@
 
 body, html {
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 /* The hero image */
@@ -38,13 +40,17 @@ body, html {
 .two-column {
     display: grid;
     grid-template-columns: 3fr 4fr;
-    grid-gap: 20px;
 }
 
 .two-column-alt{
     display: grid;
     grid-template-columns: 4fr 3fr;
-    grid-gap: 20px;
+}
+
+.two-column img {
+    height: 85%; 
+    width: 100%; 
+    object-fit: cover; 
 }
 
 .menu{
@@ -55,7 +61,7 @@ body, html {
     padding-top: 2.5%;
     padding-bottom: 1%;
 
-    padding-right: 2%;
+    padding-right: 3%;
     padding-left: 2%;
 
     float: right;
@@ -63,7 +69,7 @@ body, html {
     z-index: 10;
 }
 
-.menu a:hover{
+a:hover{
     text-align: right;
     background-color: rgb(0, 78, 66);
     color: rgb(0, 171, 142);
@@ -72,7 +78,7 @@ body, html {
     padding-bottom: 1%;
 }
 
-.menu a:active{
+a:active{
     color: rgb(0, 171, 142);
 }
 
@@ -97,5 +103,33 @@ img{
 }
 
 .footer {
-    
+    background-color: rgb(0, 78, 66);
+    padding-top: 4%;
+    padding-bottom: 6%;
+}
+
+.footer-text-right {
+    color: white;
+    text-align: right;
+    padding-right: 8%;
+    line-height: 2;
+}
+
+.footer-text-left {
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 15%;
+    line-height: 2;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
 }
