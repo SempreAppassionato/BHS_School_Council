@@ -171,3 +171,42 @@ a {
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
 }
+
+.form-container {
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: rgb(0, 56, 78);
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-container > * {
+    border-radius: 10px; 
+    padding: 10px;
+    align-items: center;
+}
+
+.form-container > input, textarea, button {
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.form-container > button {
+    margin-top: 5%;
+    margin-right: 30%;
+}
+
+.form-container > p {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.form-container > button:hover {
+    background-color: rgb(0, 171, 142);
+    color: white;
+}
