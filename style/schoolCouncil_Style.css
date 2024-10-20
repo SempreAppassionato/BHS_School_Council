@@ -2,10 +2,11 @@
     font-family: 'Public Sans';
 }
 
-body, html {
+body, html, head {
     height: 100%;
     margin: 0;
     padding: 0;
+    border: 0;
 }
 
 /* The hero image */
@@ -54,27 +55,39 @@ body, html {
 }
 
 .menu{
-    text-align: right;
     background-color: rgb(0, 78, 66);
     color: white;
     text-decoration: none;
-    padding-top: 2.5%;
-    padding-bottom: 1%;
-
-    padding-right: 3%;
-    padding-left: 2%;
 
     float: right;
     position: relative;
     z-index: 10;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 0.5%;
+    padding-right: 4%;
+}
+
+.menu-item-left{
+    float: left;
+    padding-top: 3%;
+    padding-left: 3%;
+    width: 300%;
+}
+
+.menu-item-right{
+    text-align: right;
+    color: white;
+    float: right;
+    padding-top: 10%;
+    padding-right: 3%;
+    padding-left: 4%;
 }
 
 a:hover{
     background-color: rgb(0, 78, 66);
     color: rgb(0, 171, 142);
     text-decoration: none;
-    padding-top: 2.5%;
-    padding-bottom: 1%;
 }
 
 a:active{
