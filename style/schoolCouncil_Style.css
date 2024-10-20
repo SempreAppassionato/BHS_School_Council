@@ -41,15 +41,24 @@ body, html, head {
 .two-column {
     display: grid;
     grid-template-columns: 3fr 4fr;
+    margin: 0;
 }
 
 .two-column-alt{
     display: grid;
     grid-template-columns: 4fr 3fr;
+    margin: 0;
 }
 
 .two-column img {
-    height: 85%; 
+    height: 100%; 
+    width: 100%; 
+    object-fit: cover; 
+}
+
+
+.two-column-alt img {
+    height: 100%; 
     width: 100%; 
     object-fit: cover; 
 }
